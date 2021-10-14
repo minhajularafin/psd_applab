@@ -1,0 +1,825 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+            /* header start */
+    /* header end */
+    /* home start */
+    section.home {
+        padding: 40px 0;
+    }
+    .home-content {
+        margin-top: 5px;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .home-content .badge .rounded-pill {
+        font-size: 13px;
+        width: 265px !important;
+        margin-bottom: 20px !important;
+        
+    }
+    .home-content .badge-text h1 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .home-content .badge-text p {
+        color: #616368;
+        margin-bottom: 20px;
+      
+    }
+    .home-content .btn-primary {
+        font-size: 16px;
+        width: 125px;
+        height: 40px;
+    }
+    .b-button .btn {
+       
+        padding-top: 8px;
+    }
+    .b-button .btn-link {
+        
+        margin-top: 10px;
+    }
+    .badge-img {
+        margin-top: -30px;
+    }
+    .me-3 {
+        margin-right: .5rem !important;
+    }
+    /* home end */
+     /* brand start */
+     section.brands{
+        padding: 30px 0;
+    }
+    section.brands .mini-heading{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    /* brand end */
+    /* feature start */
+    section.features{
+        padding: 30px 0;
+    }
+    section.features .f-img{
+        
+        width: 300px !important;
+    }
+    section.features .f-heading{
+        text-align: start;
+        padding: 0 10px;
+    }
+    section.features .f-heading h3 {
+        
+        font-size: 25px;
+        margin-bottom: 20px;
+        
+    }
+    section.features .f-heading p {
+        margin-bottom: 30px;
+    }
+    section.features .feature-item {
+        padding:0 10px ;
+        margin-bottom: 25px;
+    }
+    section.features .feature-item:last-child {
+        margin-bottom: 0px;
+    }
+    /* feature end */
+    /* divide start */
+    section.divide {
+        padding: 30px 0;
+    }
+    .d-heading {
+        text-align: center;
+        padding: 0 18px;
+    }
+    .d-heading h1 {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .d-text {
+        text-align: center;
+        padding: 0 0px;
+    }
+    .d-text p{
+        word-spacing: 0px;
+    }
+    .d-item {
+        margin-top: 0px;
+        margin-bottom: 40px;
+        padding: 0 6px;
+        text-align: center;
+    }
+  
+    
+    .d-item h5{
+        font-size: 20px;
+    }
+    
+    /* divide end */
+        /* design start */
+    section.design{
+        padding: 30px 0;
+        
+    }
+    .design-img {
+       margin: 10px 0;
+    }
+    .design-text{
+        margin: 20px 0;
+        text-align: center;
+        
+       
+    }
+    .design-text h3 {
+        
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .design-text p {
+        margin-bottom: 15px;
+        word-spacing: 0px;
+        
+    }
+    .design-text .btn-primary{
+        height: 40px;
+        padding-top: 7px;
+        width: 125px;
+    }
+    /* design end */
+    /* service start */
+    section.service{
+        padding: 20px 0;
+    }
+    .s-heading {
+        margin-bottom: 30px;
+    }
+    .s-heading h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .s-heading p {
+        padding: 0 12px;
+    }
+    .s-item {
+        margin-bottom: 20px;
+    }
+    .s-content p{
+        padding: 0 11px;
+    }
+    /* service end */
+    /* service-2 start */
+    section.service-2{
+        padding: 20px 0;
+    }
+    section.service-2 .s2-text {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        padding: 0 10px;
+    }
+    .s2-text h3 {
+        font-size: 26px;
+    }
+    .s2-text P {
+        word-spacing: 0px;
+    }
+    .s2-item {
+        margin-bottom: 15px;
+        padding: 0 6px;
+    }
+    .s2-content h5 {
+        
+        margin-bottom: 15px;
+        
+    }
+    .service-button {
+        margin-bottom: 10px;
+    }
+    .service-button .btn-primary{
+        height: 40px;
+        width: 125px;
+        padding-top: 8px;
+    }
+    /* service-2 end */
+    /* pricing start */
+    
+    section.pricing {
+        padding: 30px 0;
+    }
+    .price-heading {
+        margin-bottom: 10px;
+        padding: 0 15px;
+    }
+    .price-card{
+        margin-bottom: 30px;
+    }
+    .price-heading h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .price-card .card-header h1 {
+        
+        font-size: 40px;
+        
+    }
+    /* pricing end */
+    /* testimonial start */
+    section.testimonial{
+        padding: 30px 0;
+    }
+    section.testimonial .t-img {
+        margin-top: 20px;
+    }
+    .testi-heading{
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+    .testi-heading h3 {
+       
+        font-size: 21px;
+        
+        padding-bottom: 15px;
+    }
+    .c-prev-icon::after {
+        font-size: 16px;
+       
+    }
+    .c-next-icon::after {
+        font-size: 16px;
+       
+    }
+    /* testimonial end */
+    /* faq start */
+    section.faq {
+        padding: 30px 0;
+    }
+    .faq-heading {
+        margin-bottom: 20px;
+        padding: 0 18px;
+    }
+    .faq-heading h3 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .faq-heading p {
+        padding: 0px;
+    }
+    /* faq end*/
+    /* download start */
+    section.download{
+        padding: 30px 0;
+    }
+    .d-content {
+        margin-top: 20px;
+        padding: 0 12px;
+    }
+    .d-img {
+        padding: 0 0 10px 0;
+    }
+    .d-img img {
+       
+        width: 110px;
+    }
+    .d-content h1 {
+        font-size: 21px;
+        padding-bottom: 10px;
+    }
+    /* download end */
+    section.footer {
+        
+        padding: 40px 0;
+    }
+    .f-icon ul li a {
+        font-size: 30px;
+        
+    }
+    /* footer end */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header start */
+    /* header end */
+    /* home start */
+    section.home {
+        padding: 60px 0;
+    }
+    .home-content {
+        margin-top: 5px;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .home-content .badge .rounded-pill {
+        
+        margin-bottom: 20px !important;
+        
+    }
+    .home-content .badge-text h1 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .home-content .badge-text p {
+        color: #616368;
+        margin-bottom: 20px;
+      
+    }
+    .home-content .btn-primary {
+        font-size: 16px;
+        width: 125px;
+        height: 40px;
+    }
+    .b-button .btn {
+       
+        padding-top: 9px;
+    }
+    .b-button .btn-link {
+        
+        margin-top: 10px;
+    }
+    .badge-img {
+        margin-top: -30px;
+    }
+    /* home end */
+    
+    /* brand start */
+    section.brands{
+        padding: 30px 0;
+    }
+    section.brands .mini-heading{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    
+    /* brand end */
+    /* feature start */
+    section.features{
+        padding: 30px 0;
+    }
+    section.features .f-img{
+        
+        width: 450px !important;
+    }
+    section.features .f-heading{
+        text-align: start;
+    }
+    section.features .f-heading p {
+        margin-bottom: 40px;
+    }
+    section.features .feature-item {
+        margin-bottom: 35px;
+    }
+    section.features .feature-item:last-child {
+        margin-bottom: 0px;
+    }
+    /* feature end */
+    /* divide start */
+    section.divide {
+        padding: 30px 0;
+    }
+    .d-heading {
+        padding: 0 18px;
+    }
+    .d-heading h1 {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .d-text {
+        padding: 0 0px;
+    }
+    .d-text p{
+        word-spacing: 0px;
+    }
+  
+    .d-item {
+        margin-top: 45px;
+        margin-bottom: 0px;
+        padding: 0 0px;
+    }
+    .d-item h5{
+        font-size: 17px;
+    }
+    .d-item p{
+        
+    }
+    /* divide end */
+    /* design start */
+    section.design{
+        padding: 30px 0;
+        
+    }
+    .design-img {
+       margin: 40px 0;
+    }
+    .design-text{
+        margin: 30px 0;
+       
+    }
+    .design-text h3 {
+        
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .design-text p {
+        margin-bottom: 10px;
+        word-spacing: 0px;
+        
+    }
+    .design-text .btn-primary{
+        height: 40px;
+        padding-top: 7px;
+        width: 125px;
+    }
+    /* design end */
+    /* service start */
+    section.service{
+        padding: 20px 0;
+    }
+    .s-heading {
+        margin-bottom: 40px;
+    }
+    .s-heading h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .s-heading p {
+        padding: 0 30px;
+    }
+    .s-item {
+        margin-bottom: 30px;
+    }
+    .s-content p{
+        padding: 0 11px;
+    }
+    /* service end */
+    /* service-2 start */
+    section.service-2{
+        padding: 20px 0;
+    }
+    section.service-2 .s2-text {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        padding: 0 10px;
+    }
+    .s2-text h3 {
+        
+        font-size: 30px;
+        
+    }
+    .s2-text P {
+        word-spacing: 0px;
+    }
+    .s2-item {
+        margin-bottom: 15px;
+        padding: 0 23px;
+    }
+    .s2-content h5 {
+        
+        margin-bottom: 15px;
+        
+    }
+    .service-button {
+        margin-bottom: 10px;
+    }
+    .service-button .btn-primary{
+        height: 40px;
+        width: 125px;
+        padding-top: 8px;
+    }
+    /* service-2 end */
+    /* pricing start */
+    section.pricing {
+        padding: 30px 0;
+    }
+    .price-heading h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .price-card .card-header h1 {
+        
+        font-size: 40px;
+        
+    }
+    /* pricing end */
+    /* testimonial start */
+    section.testimonial{
+        padding: 30px 0;
+    }
+    section.testimonial .t-img {
+        margin-top: 30px;
+    }
+    .testi-heading{
+        margin-top: 40px;
+    }
+    .testi-heading h3 {
+       
+        font-size: 28px;
+        
+        padding-bottom: 20px;
+    }
+    /* testimonial end */
+    /* faq start */
+    section.faq {
+        padding: 40px 0;
+    }
+    .faq-heading {
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+    .faq-heading h3 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    .faq-heading p {
+        padding: 0px;
+    }
+    /* faq end*/
+    /* download start */
+    section.download{
+        padding: 30px 0;
+    }
+    .d-content {
+        margin-top: 20px;
+        padding: 0 23px;
+    }
+    .d-img {
+        padding: 0 0 20px 0;
+    }
+    .d-img img {
+       
+        width: 110px;
+    }
+    .d-content h1 {
+        font-family: 'poppins-semiBold';
+        font-size: 30px;
+        padding-bottom: 14px;
+    }
+    /* download end */
+    /* footer start */
+    section.footer {
+        background-color: #09142e;
+        padding: 50px 0;
+    }
+    .f-icon ul li a {
+        font-size: 35px;
+        
+    }
+    /* footer end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start */
+    /* header end */
+    /* home start */
+    section.home {
+        padding: 80px 0;
+    }
+    .home-content {
+        margin-top: 100px;
+        padding: 0 0px;
+    }
+    .home-content .badge .rounded-pill {
+        font-family: 'poppins-regular';
+        font-size: 14px;
+        width: 285px !important;
+        margin-bottom: 30px !important;
+        color: #242f51 !important;
+    }
+    .home-content .badge-text h1 {
+        font-size: 31px;
+        margin-bottom: 25px;
+    }
+    .home-content .btn-primary {
+       
+        font-size: 16px;
+        width: 135px;
+    }
+    .b-button .btn-link {
+        
+        margin-top: 10px;
+    }
+    .badge-img {
+        margin-top: -30px;
+    }
+    /* home end */
+
+    /* brand start */
+    section.brands{
+        padding: 30px 0;
+    }
+    section.brands .mini-heading{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    /* brand end */
+
+    /* feature start */
+    section.features{
+    padding: 40px 0;
+    }
+    section.features .f-img{
+        width: 300px !important;
+    }
+    section.features .f-heading p {
+        margin-bottom: 40px;
+    }
+    section.features .feature-item {
+        margin-bottom: 35px;
+    }
+    section.features .feature-item:last-child {
+        margin-bottom: 0px;
+    }
+    
+    /* feature end */
+    /* divide start */
+    section.divide {
+        padding: 40px 0;
+    }
+    .d-heading {
+        padding: 0 18px;
+    }
+    .d-heading h1 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 40px;
+        
+    }
+    .d-text {
+        padding: 0 33px;
+    }
+    .d-text p{
+        word-spacing: 2px;
+    }
+    .d-item {
+        margin-top: 60px;
+        margin-bottom: 0px;
+        padding: 0 6px;
+    }
+    /* divide end */
+
+    /* design start */
+    section.design{
+        padding: 30px 0;
+        
+    }
+    .design-img {
+        margin: 30px 0;
+    }
+    .design-text{
+        margin: 30px 0;
+       
+    }
+    .design-text h3 {
+        
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .design-text p {
+        margin-bottom: 20px;
+        word-spacing: 15x;
+        
+    }
+    .design-text .btn-primary{
+        height: 40px;
+        padding-top: 7px;
+        width: 125px;
+    }
+    /* design end */
+
+    /* service start */
+    section.service{
+        padding: 25px 0;
+    }
+    .s-heading {
+        margin-bottom: 60px;
+    }
+    .s-heading h3 {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    .s-heading p {
+        padding: 0 92px;
+    }
+    .s-item {
+        margin-bottom: 30px;
+    }
+    /* service end */
+    /* service-2 start */
+    section.service-2{
+        padding: 30px 0;
+    }
+    section.service-2 .s2-text {
+        
+        margin-bottom: 10px;
+        padding: 0 10px;
+    }
+    .s2-text h3 {
+        
+        font-size: 30px;
+        
+    }
+    .s2-text P {
+        word-spacing: 0px;
+    }
+    .s2-item {
+        margin-bottom: 20px;
+        padding: 0 7px;
+    }
+    .s2-content h5 {
+        
+        margin-bottom: 15px;
+        
+    }
+    .service-button {
+        margin-bottom: 10px;
+    }
+    /* service-2 end */
+    /* pricing start */
+    section.pricing {
+        padding: 40px 0;
+    }
+    .price-heading h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    /* pricing end */
+    /* testimonial start */
+    section.testimonial{
+        padding: 40px 0;
+    }
+    section.testimonial .t-img{
+        margin-top: 240px;
+    }
+    .testi-heading h3 {
+        
+        font-size: 27px;
+       
+        padding-bottom: 20px;
+    }
+    .testi-heading p {
+        padding-bottom: 10px;
+    }
+    /* testimonial end */
+    /* faq start */
+    section.faq {
+        padding: 40px 0;
+    }
+    .faq-heading {
+        margin-bottom: 30px;
+        padding: 0 0px;
+    }
+    .faq-heading h3 {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    .faq-heading p {
+        padding: 0px;
+    }
+    /* faq end*/
+    /* download start */
+    section.download{
+        padding: 30px 0;
+    }
+    .d-img {
+        padding: 0 0 20px 0;
+    }
+    .d-content h1 {
+        font-family: 'poppins-semiBold';
+        font-size: 30px;
+        padding-bottom: 14px;
+    }
+    /* download end */
+    /* footer start */
+    section.footer {
+        background-color: #09142e;
+        padding: 50px 0;
+    }
+    /* footer end */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .d-heading h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+   
+    .faq-heading {
+        margin-bottom: 50px;
+        padding: 0 0px;
+    }
+} 
+/* X-Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+
+ /* XX-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+
+}
